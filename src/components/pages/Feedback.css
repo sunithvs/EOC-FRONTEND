@@ -1,0 +1,175 @@
+.FBbackground{
+    border-top:solid 1px rgb(153, 153, 153) ;
+    
+   background-color: whitesmoke;
+    
+    margin-bottom: -2%;
+
+display:flex;
+justify-content: center;
+
+}
+
+
+.textremain{
+    white-space: pre-wrap;
+}
+    
+
+
+.FBEMAIL{
+    background-color: whitesmoke;
+    padding: 2%;
+    border: solid 1px black;
+    border-radius: 5px;
+    position: relative;
+}
+.FBCOPY{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    font-weight: 500;
+
+}
+.FBCOPY:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.FBCOPYIED{
+    color: green;
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    font-weight: 500;
+}
+
+.FBBUttonSpacer{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.CONbase{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    
+}
+
+
+.FBBOARD{
+   
+    margin: 0px;
+    flex: 5;
+    background-color: white;    
+    height: min-content;
+    padding: 3%;    
+    border-top-left-radius:5px ;
+    border-bottom-left-radius: 5px;
+    
+
+}
+
+
+.CON_box{
+    background-color: rgb(61,137,248);
+   flex: 3;
+    color: white;
+    padding: 3%;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    margin: 0px;
+   
+}
+.CON_Itembox{
+    display: flex;
+    margin-bottom: 10px;
+}
+.CON_icon{
+    display: flex;
+    height: max-content;    
+    width: fit-content;
+    padding: 3%;
+    margin: 1%;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.207);
+    border-radius: 20px;
+    
+
+}
+.CON_cont{
+margin: 0px;
+color: white;
+}
+
+.CON_cont_HEAD{
+    margin: 0px;
+    font-weight: 600;
+
+}
+
+.FB_CON_base{
+    width: 100%;
+     
+    -webkit-box-shadow: 0px 8px 30px -6px rgba(0,0,0,0.2); 
+    box-shadow: 0px 8px 30px -6px rgba(0,0,0,0.2);
+    display: flex;
+    margin:3% ;
+
+}
+
+.MCON_BASE{
+    border-top: solid 1px rgba(0, 0, 0, 0.344);
+   padding: 10%;
+   padding-top: 5%;
+}
+
+.MCON_PARA{
+    margin-bottom: 0px;
+}
+.MCON_LINK{
+    margin-bottom: 0px;
+}
+
+.MCON_BLOCKBASE{
+    display: flex;
+    flex-direction: column;
+
+}
+.MCON_BLOCK_ROW{
+    flex: 1;
+    display: flex;
+
+}
+.MCON_BLOCK_ITEM{
+    flex: 1;
+    border: solid   1px rgba(0, 0, 0, 0);
+    margin: 10px;
+    padding: 10px;
+    border-radius:10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .FB_CON_base {
+        
+        flex-direction: column;
+    }
+
+    
+.CON_box{
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+   
+}
+
+.MCON_BLOCK_ROW{
+   flex-direction: column;
+
+}
+    
+    
+    }

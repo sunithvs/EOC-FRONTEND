@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.writing {
+  font-family: "PT Sans", sans-serif;
+  position: absolute;
+  top: 70%;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  color: rgb(233, 233, 233);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.writing:hover {
+  color: rgb(255, 255, 255);
+}
+.imgsize {
+}
+.cente {
+  
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .logocor{
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  .logocardiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #001f4f;
+    margin-bottom: 30px;
+    
+
+  }
+}
+
+.CAR_BASEBTNS{
+  display: flex;
+  border-bottom: solid 1px rgb(135, 135, 135);
+  
+
+}
+
+.CAR_ORNG_BTN{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 1.2rem;
+  color: w;
+  
+  flex: 1;
+  background-color: rgb(247,94,0);
+}
+
+.CAR_WHT_BTN{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.unselectable {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

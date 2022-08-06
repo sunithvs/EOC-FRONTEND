@@ -1,0 +1,74 @@
+.commbase{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    
+}
+.commsubboc{
+    flex:1;
+    display: flex;
+   
+}
+.Dapcomm{
+    padding-top: 7%;
+}
+.DAPcommsubboc{
+    
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+   justify-content: space-between;
+}
+
+.socecomm{
+    
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+
+}
+
+.socecommsubboc{
+    
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+   justify-content: space-between;
+}
+.socememberline{
+    border-bottom: solid black 1px;
+    margin-bottom: 20px;
+
+}
+
+.Standingspacer{
+    border-top: solid 1px black;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+    .compic{
+        max-width: none !important;
+        max-height: 30vw;
+    }
+    .MOB_FLEX_COLMN{
+        flex-direction: column;
+        
+    }
+    .MOB_FLEX_COLMN :first-child{
+        
+        font-size: 18px;
+    }
+
+   
+    
+    }

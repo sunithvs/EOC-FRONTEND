@@ -1,0 +1,17 @@
+.list{
+    text-align: start;
+    font-size: 0.85rem;
+    margin-top: 2%;
+}
+.endevent{
+    
+    border-bottom: 1px solid rgba(97, 97, 97, 0.13);
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+}
+.endevent:hover{
+    cursor: pointer;
+}
+.nomarginbott{
+    margin-bottom: 0px;
+}

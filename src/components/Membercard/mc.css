@@ -1,0 +1,55 @@
+.commbox{
+    flex: 1;
+    padding: 3%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.commname{
+    color: rgb(0,31,79);
+
+}
+.commboxpic{
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.compic{
+
+    max-width: 10vw
+}
+.socecommitem{
+    flex:1
+}
+.socememmarginedit{
+    margin-bottom:0px;
+    font-size: 14px;
+    padding-right: 30%;
+}
+.nOMAR{
+    margin-bottom: 0px;
+   color: rgb(0,31,79);
+}
+
+@media only screen and (max-width: 768px) {
+   
+    .nOMAR{
+        font-size: 18px;
+        color: rgb(0,31,79);
+    }
+    .commboxpic{
+        display: flex;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .socememmarginedit{
+        padding-right: 0px;
+    }
+    
+    
+    }

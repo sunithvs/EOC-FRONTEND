@@ -1,0 +1,138 @@
+
+
+
+.dapcvr{
+    width: 100%;
+    background-position:top;
+    background-size: 100% auto;
+    border-top: solid rgb(194, 194, 194) 1px;
+    
+}
+.daphead{
+   text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 3%;
+}
+.hedwrite{
+    flex: 1;
+ 
+}
+.quotebox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    
+    
+
+}
+.authe{
+    flex: 1;
+    padding-left: 15vw;
+}
+
+.dappara{    
+    padding: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.pointclass{
+    padding-right: 20vw;
+    padding-left: 20vw;
+}
+.dapgal{
+display: flex;
+max-width: 80vw;
+margin-bottom: 20vh;
+
+}
+.daprow{
+    flex: 1;
+    max-width: 80vw;
+
+}
+.dapitm{
+    max-width: 20vw;
+    padding: 20;
+    margin-left: 3vw;
+flex: 1;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+ 
+  
+   
+  .DAP_row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .DAP_IMAG{
+    width:100%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .DAP_column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  .DAP_column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .DAP_column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .DAP_column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  
+@media only screen and (max-width: 768px) {
+   
+  .dapcvr {
+    
+    background-size: cover;
+
+  }
+  .dappara {
+    padding: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .pointclass {
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+  .DAPcommsubboc {
+    
+    flex-direction: column;
+}
+
+ 
+  
+  }

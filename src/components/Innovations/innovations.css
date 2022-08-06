@@ -1,0 +1,313 @@
+.INOBase{
+ background-color: white; 
+ border-top: solid 2px rgb(221, 221, 221);
+ padding: 5%;
+}
+.INOgallerybase{
+  
+  background-color: white;
+  overflow: auto;
+ 
+}
+div.INOgallery {
+   
+   background-color: white;
+   
+   margin: 2%;
+ }
+ .INOunderline{
+  border-bottom: solid 2px black;
+ }
+
+ .INORecnt{
+   font-size: 25px;
+   font-weight: 600;
+   padding-left:3% ;
+ }
+ 
+ 
+ div.INOgallery:hover  {
+  
+   
+   cursor: pointer;
+
+
+ }
+
+ .youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 80%;  
+  margin-bottom: 5%;
+  margin-top: 8%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+ div.INOgallery:hover .INOaspectartio{
+  filter: brightness(70%)
+ }
+ div.INOgallery:hover .INOdesc{
+  color: rgb(206, 58, 21);
+ }
+ .INOgalleyspacer{
+   padding-top: 2%;
+   padding-bottom: 5%;
+   padding-right: 5%;
+   padding-left: 5%;
+ }
+   
+ 
+ div.INOgallery img {
+   width: 100%;
+   
+   
+ }
+ .INOaspectartio{
+   background-color: whitesmoke;
+   background-size: cover;
+   position: relative;
+   width: 100%;
+   padding-top: 56.25%;
+   
+   
+
+
+ }
+ 
+ div.INOdesc {
+   padding: 15px;
+   font-size: 20px;
+   font-weight: 700;
+   
+ }
+ 
+ * {
+   box-sizing: border-box;
+ }
+ 
+ .INOresponsive {
+   padding: 0 6px;
+   float: left;
+   width: 33.33333%;
+   height: auto;
+   
+ }
+ 
+
+ 
+ .INOclearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .INOdetailhead{
+   
+   background-size: cover;
+   
+   width: 100%;
+   height: 40vh;
+   
+ }
+
+
+ .INOdetailtittle{
+   text-transform: uppercase;
+   color:white;
+   font-size: 200%;
+   background-color: rgb(0,111,255);
+   max-width:max-content;
+   max-height: max-content;
+   padding-left: 3%;
+   padding-right: 3%;
+   
+   
+   
+   
+
+ }
+
+ .INOdetailtittlebox{
+   width: 100%;
+   position: relative;
+   left: 0px;
+   top:30%;
+
+   padding-left: 5%;
+
+ }
+
+ .INODetailDate{
+   text-transform: uppercase;
+   background-color: rgb(13,13,13);
+   color: white;
+   max-width: max-content;
+   padding-left:2%;
+   padding-right: 2%;
+   padding-top: 0.4%;
+   padding-bottom: 0.4%;
+   font-weight: 500;
+ }
+
+
+ .INODetailbox{
+   box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+   box-sizing: border-box;
+   border: solid 1px #e6e6e6;
+   margin-top: -3%;
+   margin-left:5%;
+   margin-right: 5%;
+   height: max-content;
+   background-color: white;
+   overflow: auto;
+   padding-bottom: 10%;
+  
+   
+ }
+
+.INODetailDesc{
+ 
+ margin-top: 5%;
+ margin-left: 10%;
+ margin-right: 10%;
+ text-align:justify;
+
+}
+.INOphototittl{
+ font-size: 1.5rem;
+ border-bottom: solid rgb(53, 53, 53) 3px;
+ margin-left: 3%;
+ margin-right: 3%;
+ margin-bottom: 20px;
+ padding-bottom: 10px;
+}
+.INOGalleryTittle{
+ font-size:2.5rem;
+ width: 100%;
+ 
+ 
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+
+.youtube-video-container { 
+  width: 100% !important; 
+}
+
+.INOdetailhead {
+  
+  height: 20vh;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+ .INOresponsive {
+   width: 49.99999%;
+   margin: 6px 0;
+ }
+}
+
+@media only screen and (max-width: 500px) {
+ .INOresponsive {
+   width: 100%;
+ }
+ .INOdetailhead{
+  background-size: cover;
+  width: 100%;
+  
+ }
+}
+
+.INOmodelview{
+ width: 100%;
+ overflow: auto;
+ background-color: blueviolet;
+ position: absolute;
+ top: 0px;
+ left:0px
+}
+.INOmodelimg{
+ max-width: 100%;
+ max-height: 100%;
+ 
+}
+
+.INObasemodel{
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.INOclosebtn{
+ color: rgb(51, 47, 47);
+ position: absolute;
+ top: -10px;
+ left:10px;
+ 
+ padding: 3px;
+ padding-left:1%;
+ padding-right: 1%;
+ color: white;
+ font-size: 18px;
+}
+
+.INOclosebtn:hover{
+ cursor: pointer;
+   
+}
+
+.INOmodle{
+ background-color: black;
+ height: 100%;
+ width: 100%;
+}
+
+.INObtncls{
+ display: flex;
+ width: 100%;
+ align-items: baseline;
+ 
+}
+.INObtn1{
+ flex: 1;
+ margin:2%;
+ margin-left: 5%;
+}
+.INObtn2{
+ 
+ flex: 1;
+ margin:2%;
+ text-align: end;
+ padding-right: 3%;
+ 
+}
+.INOgoback{
+ padding: 2%;
+ font-weight:500 ;
+ color: rgb(0,111,255);
+}
+.INOgoback:hover{
+ cursor: pointer;
+ color: rgb(0, 69, 160);
+}

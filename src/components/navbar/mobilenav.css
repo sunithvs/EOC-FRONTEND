@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+.MOBmenu{
+    
+    color:black;
+    height: 8vh;
+    color: white;
+    background-color: rgb(0,31,79);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+    box-shadow: 0 7px 5px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+}
+.MOBHead{
+    flex: 1;
+    font-family: 'Cinzel', serif;
+
+   
+    
+
+}
+.MOBOPEN_BAR{
+    overflow: scroll;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 8vh;
+    max-width: 350px;
+    
+    width: 82vw;
+    height: 75vh;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    border: solid 1px #e6e6e6;
+    padding: 5%;
+    padding-left: 2%;
+}
+.MOBTOPMARGIN{
+    margin-top: 8vh;
+}
+.MOBMENUBAR{
+    
+    
+}
+.MOBbuttonbox{
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+   
+}
+.MOBMENUTITTLE{
+    margin: 0px;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px rgb(202, 81, 5) ;
+    font-weight: 600;
+
+}
+.MOBMAINLIST{
+    font-weight: 500;    
+}
+.MOBNAVnounderline {
+    text-decoration: none;
+    color: black;
+}
+
+.MENUICON{
+    margin: 20px;
+}
+.MOBSMALL{
+    margin: 25px;
+}

@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: white;
+}
+
+.obj{
+    
+    margin-left: 3vw;
+    margin-right: 3vw;
+    text-align: center;
+    display: flex;
+    margin-top: 5vw;
+    background-color: white;
+}
+
+.mainbox{    
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    border: solid 1px #e6e6e6;
+    padding: 5%;
+}
+.leftflex{
+    background-color: white;
+    flex: 9;
+    margin-right:2vw;
+    
+
+}
+.rightflex{
+    flex: 5;
+}
+
+
+
+.nobordhead{
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    
+    width: min-content;
+    padding-bottom: 0px;
+    margin-bottom: -3px;
+    padding-right: 20px;
+    display: flex;
+
+}
+
+.homeheadbox{
+    
+    display: flex;
+    flex:1;
+    max-width: 100%;
+ }
+
+
+.homehead{
+ 
+ flex:1;
+ padding-right: 5%;
+}
+.homeheadbox{
+    flex:1;
+    width: 100%;
+    text-align: start;
+}
+.objectiClass{
+    text-align: start;
+}
+
+
+
+
+.parabox{
+    display: flex;
+
+}
+.LeftparaBOX{
+    flex: 1;
+}
+
+.RightparaBOX{
+    flex: 1;
+    max-width: 50%;
+    height: min-content;
+    
+}
+
+
+
+
+
+.subtittle{
+    font-size: 1rem;
+}
+.ParaGroup{
+    text-align: start;
+}
+.subPARA{
+    font-size: 0.9rem;
+}
+.ico{
+    margin-right: 10px;
+}
+.para{
+    text-align: justify;
+    padding-top: 2%;
+    font-size: 0.9rem;
+}
+.endpara{
+    padding-bottom: 5%;
+    border-bottom: 1px solid rgba(97, 97, 97, 0.13);
+}
+.list{
+    text-align: start;
+    font-size: 0.85rem;
+    margin-top: 2%;
+}
+.listitem{
+    padding-bottom: 1%;
+
+}
+.eventbox{
+    background-color: white;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-top-left-radius : 5px;
+    border-top-right-radius:5px ;
+    
+}
+.evenhead{
+    border-bottom: 1px solid rgb(51, 51, 51);
+    padding-bottom: 3%;
+    text-align: start;
+    font-size: 1.5rem;
+    
+}
+.eventtittlebox{
+    
+
+    margin-top: 0px;
+    padding:5%;
+    border-top-left-radius : 5px;
+    border-top-right-radius:5px ;
+}
+.endevent{
+    padding-bottom: 1px;
+    border-bottom: 1px solid rgba(97, 97, 97, 0.13);
+}
+.NotLimit{
+    max-height:400px ;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+.RightparaBOX {
+        
+    max-width: 100%;
+   
+    
+}
+
+.obj{
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 1vw;
+}
+.parabox {
+   
+    flex-direction: column;
+}
+.homehead{
+    padding-right:0px;
+    text-align: justify;
+}
+
+.RightparaBOX{
+    margin-bottom: 30px;
+}
+
+
+}
