@@ -43,6 +43,10 @@ function Mobilenav() {
 
             </div>
 
+            <Link to='/About' className='GALLERY aligntext buttoneff'>
+                About
+            </Link>
+
             <Link to='/Gallery' className='GALLERY aligntext buttoneff'>
                 Gallery
             </Link>

@@ -1,4 +1,6 @@
 import React from 'react';
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+
 import ResponsiveNav from './components/navbar/ResponsiveNav'
 import Footer from '../src/components/Footer/Footer'
 
@@ -6,7 +8,7 @@ import Home from './components/pages/Home/Home'
 import CoachingPrograms from './components/pages/CoachingForNET'
 import Contact from './components/pages/Contact'
 import Mentors from './components/pages/Mentors'
-import Gallery from './components/pages/Gallery'
+import Gallery from './components/pages/Gallery/Gallery'
 import Innovations from './components/Innovations/Innovations'
 import PEC from './components/pages/PEC'
 import Soce from './components/pages/Soce'
@@ -17,10 +19,8 @@ import CoachingForEntryIntoService from "./components/pages/CoachingForEntryInto
 import CoachingForNET from "./components/pages/CoachingForNET"
 import Feedback from "./components/pages/Feedback"
 import SocePrograms from "./components/pages/Soceprograms"
+import About from "./components/pages/About";
 
-
-
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 
 function App() {
   return (
@@ -45,6 +45,7 @@ function App() {
           <Route path='/CoachingForEntryIntoService' component={CoachingForEntryIntoService} />
           <Route path='/CoachingForNET' component={CoachingForNET} />
           <Route path='/Feedback' component={Feedback} />
+          <Route path='/About' component={About} />
           <Route path='/SocePrograms' component={SocePrograms}/>
 
         </Switch>

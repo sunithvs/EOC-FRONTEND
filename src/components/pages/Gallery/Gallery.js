@@ -1,10 +1,10 @@
-import PhotoGallery from '../Gallery/PhotoGallery'
+import PhotoGallery from '../../Gallery/PhotoGallery'
 
 function Gallery() {
   return (
-    
+
         <PhotoGallery/>
-        
+
   );
 }
 

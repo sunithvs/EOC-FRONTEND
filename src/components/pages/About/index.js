@@ -1,7 +1,6 @@
-import './soce.css'
-import Socecommittee from '../Committee/Socecommittee'
 
-function Soce() {
+export default function About()
+{
     return (
         <div className='soce_main'>
             <h3 className='socetittle'>SKILL ORIENTATION CENTRE FOR ENGINEERING (SOCE), CUSAT</h3>
@@ -31,31 +30,7 @@ function Soce() {
                     </ul>
 
                 </div>
-
-                <div className='soceright'>
-
-
-                </div>
-
             </div>
-            <div className='soceADV'>
-                <h4>Advantages of Skill Orientation Centre in CUSAT</h4>
-                <ul>
-                    <li>Improving communication skills both in verbal and written.</li>
-                    <li>Creating a way of Self employment</li>
-                    <li>Becoming students more productive and self sufficient</li>
-                    <li>Increasing proficiency in English Language</li>
-                    <li>Increasing knowledge capacity</li>
-                    <li>Increasing confidence tends to appear competitive exams.</li>
-
-
-                </ul>
-                <Socecommittee/>
-            </div>
-
         </div>
-
     );
 }
-
-export default Soce;
