@@ -8,7 +8,7 @@ class Mobilesub extends Component{
 
     state = {
         open:false};
-    
+
     handleMenu =()=>{
         this.setState({open:!this.state.open})
     }
@@ -24,8 +24,6 @@ class Mobilesub extends Component{
                     {
                         (this.state.open)&&<XLg className='MENUICON MOBSMALL' size={30}/>
                     }
-                    
-                    
                 </div>
             {this.menu()}
             </div>
@@ -52,21 +50,22 @@ class Mobilesub extends Component{
                         <li >
                         <p className='MOBMENUTITTLE'><Link className='MOBNAVnounderline MOBMAINLIST' to='/SOCE'>SOCE</Link></p>
                             <ul className='MOBMENUBAR'>
-                                <li className='MOBbuttonbox'><Link className='MOBNAVnounderline' to='/SocePrograms'>Programs</Link></li>                               
+                                <li className='MOBbuttonbox'><Link className='MOBNAVnounderline' to='/SocePrograms'>Programs</Link></li>
                             </ul>
                             </li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST' to='/Innovations'>Innovation</Link></li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST' to='/Gallery'>Gallery</Link></li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST' to='/Contact'>Contact</Link></li>
+                        <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST' to='/Mentors'>Mentors</Link></li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST' to='/Feedback'>Feedback</Link></li>
                     </ul>
-                    
+
                 </div>
             )
         }else{
             return(
                 <div>
-                    
+
                 </div>
             )
         }

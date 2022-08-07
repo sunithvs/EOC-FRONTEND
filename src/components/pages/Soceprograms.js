@@ -1,6 +1,5 @@
 import "./soce.css"
 
-import SoceImages from './SoceImages'
 import {useEffect, useState} from "react";
 
 function SocePrograms() {
@@ -11,7 +10,7 @@ function SocePrograms() {
         fetch(process.env.REACT_APP_API + "programs?type=SOCE")
             .then(response => response.json())
             .then(setPrograms);
-    }, [])
+    }, []);
 
     return (
         <div className="PRO_BASE">
@@ -25,17 +24,21 @@ function SocePrograms() {
             <h5>Recent Acitivties: </h5>
 
             {!programs && <h4>Loading...</h4>}
-            {programs.map(() => (
+            {programs.map(({name, longDesc, image, images}) => (
                 <div className="PRO_eventbase">
-                    <h5>C++ Training for students</h5>
-                    <p>C++ is one of the important low level language for programming.Having a basic understanding of the
-                        C++ can help students to understand most of the programming and help them analize problems
-                        logically.</p>
+                    <h5>{name}</h5>
+                    <p>{longDesc}</p>
                     <div className="PRO_row">
-
-                        <div className="PRO_column">
-                            <img src={SoceImages.cpp1} className="PRO_IMAG" alt=""/>
-                        </div>
+                        {image &&
+                            <div className="PRO_column">
+                                <img src={image} className="PRO_IMAG" alt={name}/>
+                            </div>
+                        }
+                        {images.map(({images}) =>
+                            <div className="PRO_column">
+                                <img src={images} className="PRO_IMAG" alt={name}/>
+                            </div>
+                        )}
                     </div>
                 </div>
             ))}
