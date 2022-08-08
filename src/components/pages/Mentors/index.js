@@ -15,8 +15,6 @@ function MentorCard({name, designation, image}) {
 export default function Mentors() {
     const [mentors, setMentors] = useState([]);
 
-    const types = ["Faculty", "Alumni", "Student"]
-
     useEffect(() => {
         fetch(process.env.REACT_APP_API + "mentor")
             .then(response => response.json())
@@ -25,17 +23,28 @@ export default function Mentors() {
 
     return (
         <div className="p-5 pt-3">
-            {types.map((t) =>
-                <div key={t}>
-                    <h4>{t}</h4>
-                    <div className="d-flex flex-row justify-content-evenly flex-wrap">
-                        {mentors.filter(({type}) => type === t).map(({id, name, designation, image}) =>
-                            <MentorCard designation={designation} name={name} image={image} key={id}/>
-                        )}
-                    </div>
-                    <hr/>
-                </div>
-            )}
+            <h4>Faculty</h4>
+            <div className="d-flex flex-row justify-content-evenly flex-wrap">
+                {mentors.filter(({type}) => type === "Faculty").map(({id, name, designation, image}) =>
+                    <MentorCard designation={designation} name={name} image={image} key={id}/>
+                )}
+            </div>
+            <hr/>
+
+            <div>
+                <h4>Alumni</h4>
+                {mentors.filter(({type}) => type === "Alumni").map(({id, name, designation, image}) =>
+                    <MentorCard designation={designation} name={name} image={image} key={id}/>
+                )}
+            </div>
+            <hr/>
+
+            <div>
+                <h4>Student</h4>
+                {mentors.filter(({type}) => type === "Student").map(({id, name, designation, image}) =>
+                    <MentorCard designation={designation} name={name} image={image} key={id}/>
+                )}
+            </div>
         </div>
     )
 }
