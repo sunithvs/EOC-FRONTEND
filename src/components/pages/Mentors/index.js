@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 function MentorCard({name, designation, image}) {
     return (
         <div className="card m-1" style={{width: "15rem"}}>
-            <img className="card-img-top" src={image} style={{aspectRatio: "1"}}/>
+            <img className="card-img-top" src={image} style={{aspectRatio: "1"}} alt={""}/>
             <div className="card-body">
                 <h5 className="card-title">{name}</h5>
                 <p className="card-text">{designation}</p>
