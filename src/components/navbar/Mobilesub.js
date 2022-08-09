@@ -65,8 +65,16 @@ class Mobilesub extends Component {
                         </li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST'
                                                            to='/Innovations'>Innovation</Link></li>
-                        <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST'
-                                                           to='/About'>About</Link></li>
+                        <li>
+                            <p className='MOBMENUTITTLE'><Link className='MOBNAVnounderline MOBMAINLIST'
+                                                               to='/SOCE'>About</Link></p>
+                            <ul className='MOBMENUBAR'>
+                                <li className='MOBbuttonbox'><Link className='MOBNAVnounderline'
+                                                                   to='/About/SOCE'>SOCE</Link></li>
+                                <li className='MOBbuttonbox'><Link className='MOBNAVnounderline'
+                                                                   to='/About/EOC'>EOC</Link></li>
+                            </ul>
+                        </li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST'
                                                            to='/Gallery'>Gallery</Link></li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST'

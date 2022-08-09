@@ -42,9 +42,19 @@ function Mobilenav() {
                 </div>
             </div>
 
-            <Link to='/About' className='GALLERY aligntext buttoneff'>
-                About
-            </Link>
+            <div className='SOCE aligntext'>
+                <div className="dropdown">
+                    <Link className='nounderline buttoneff' to='/Mentors'>
+                        <button className="dropbtn">
+                            About
+                        </button>
+                    </Link>
+                    <div className="dropdown-content">
+                        <Link className='nounderline' to='/About/SOCE'><CaretRightFill/>SOCE</Link>
+                        <Link className='nounderline' to='/About/EOC'><CaretRightFill/>EOC</Link>
+                    </div>
+                </div>
+            </div>
 
             <Link to='/Gallery' className='GALLERY aligntext buttoneff'>
                 Gallery

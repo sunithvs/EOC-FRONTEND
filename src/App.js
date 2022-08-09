@@ -45,7 +45,7 @@ function App() {
           <Route path='/CoachingForEntryIntoService' component={CoachingForEntryIntoService} />
           <Route path='/CoachingForNET' component={CoachingForNET} />
           <Route path='/Feedback' component={Feedback} />
-          <Route path='/About' component={About} />
+          <Route path='/About/:org' component={About} />
           <Route path='/SocePrograms' component={SocePrograms}/>
 
         </Switch>
