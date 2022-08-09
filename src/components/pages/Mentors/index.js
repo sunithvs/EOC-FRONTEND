@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import {useParams} from "react-router-dom";
 
 function MentorCard({name, designation, image}) {
     return (
@@ -15,6 +16,12 @@ function MentorCard({name, designation, image}) {
 export default function Mentors() {
     const [mentors, setMentors] = useState([]);
 
+    const types = ["Faculty", "Alumni", "Student"]
+
+    const {mentorType} = useParams()
+
+    console.log(mentorType)
+
     useEffect(() => {
         fetch(process.env.REACT_APP_API + "mentor")
             .then(response => response.json())
@@ -23,28 +30,17 @@ export default function Mentors() {
 
     return (
         <div className="p-5 pt-3">
-            <h4>Faculty</h4>
-            <div className="d-flex flex-row justify-content-evenly flex-wrap">
-                {mentors.filter(({type}) => type === "Faculty").map(({id, name, designation, image}) =>
-                    <MentorCard designation={designation} name={name} image={image} key={id}/>
-                )}
-            </div>
-            <hr/>
-
-            <div>
-                <h4>Alumni</h4>
-                {mentors.filter(({type}) => type === "Alumni").map(({id, name, designation, image}) =>
-                    <MentorCard designation={designation} name={name} image={image} key={id}/>
-                )}
-            </div>
-            <hr/>
-
-            <div>
-                <h4>Student</h4>
-                {mentors.filter(({type}) => type === "Student").map(({id, name, designation, image}) =>
-                    <MentorCard designation={designation} name={name} image={image} key={id}/>
-                )}
-            </div>
+            {types.map((t) =>
+                <div key={t} hidden={mentorType !== t}>
+                    <h4>{t}</h4>
+                    <div className="d-flex flex-row justify-content-evenly flex-wrap">
+                        {mentors.filter(({type}) => t === type).map(({id, name, designation, image}) =>
+                            <MentorCard designation={designation} name={name} image={image} key={id}/>
+                        )}
+                    </div>
+                    <hr/>
+                </div>
+            )}
         </div>
     )
 }

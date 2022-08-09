@@ -40,7 +40,6 @@ function Mobilenav() {
                         <Link className='nounderline' to='/SocePrograms'><CaretRightFill/> Programs</Link>
                     </div>
                 </div>
-
             </div>
 
             <Link to='/About' className='GALLERY aligntext buttoneff'>
@@ -50,9 +49,20 @@ function Mobilenav() {
             <Link to='/Gallery' className='GALLERY aligntext buttoneff'>
                 Gallery
             </Link>
-            <Link to='/Mentors' className='GALLERY aligntext buttoneff'>
-                Mentors
-            </Link>
+            <div className='SOCE aligntext'>
+                <div className="dropdown">
+                    <Link className='nounderline buttoneff' to='/Mentors'>
+                        <button className="dropbtn">
+                            Mentors
+                        </button>
+                    </Link>
+                    <div className="dropdown-content">
+                        <Link className='nounderline' to='/Mentors/Faculty'><CaretRightFill/>Faculty</Link>
+                        <Link className='nounderline' to='/Mentors/Alumni'><CaretRightFill/>Alumni</Link>
+                        <Link className='nounderline' to='/Mentors/Student'><CaretRightFill/>Student</Link>
+                    </div>
+                </div>
+            </div>
             <Link to='/Contact' className='CONTACT aligntext buttoneff'>
                 Contact
             </Link>

@@ -71,8 +71,18 @@ class Mobilesub extends Component {
                                                            to='/Gallery'>Gallery</Link></li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST'
                                                            to='/Contact'>Contact</Link></li>
-                        <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST'
-                                                           to='/Mentors'>Mentors</Link></li>
+                        <li>
+                            <p className='MOBMENUTITTLE'><Link className='MOBNAVnounderline MOBMAINLIST'
+                                                               to='/SOCE'>Mentors</Link></p>
+                            <ul className='MOBMENUBAR'>
+                                <li className='MOBbuttonbox'><Link className='MOBNAVnounderline'
+                                                                   to='/Mentors/Faculty'>Faculty</Link></li>
+                                <li className='MOBbuttonbox'><Link className='MOBNAVnounderline'
+                                                                   to='/Mentors/Alumni'>Alumni</Link></li>
+                                <li className='MOBbuttonbox'><Link className='MOBNAVnounderline'
+                                                                   to='/Mentors/Student'>Student</Link></li>
+                            </ul>
+                        </li>
                         <li className='MOBbuttonbox'><Link className='MOBNAVnounderline MOBMAINLIST'
                                                            to='/Feedback'>Feedback</Link></li>
                     </ul>
@@ -87,9 +97,7 @@ class Mobilesub extends Component {
             )
         }
 
-
     }
-
 
 }
 
