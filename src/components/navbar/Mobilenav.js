@@ -52,6 +52,7 @@ function Mobilenav() {
                     <div className="dropdown-content">
                         <Link className='nounderline' to='/About/SOCE'><CaretRightFill/>SOCE</Link>
                         <Link className='nounderline' to='/About/EOC'><CaretRightFill/>EOC</Link>
+                        <Link className='nounderline' to='/About/associating_institution'><CaretRightFill/>Associating Institution</Link>
                     </div>
                 </div>
             </div>
