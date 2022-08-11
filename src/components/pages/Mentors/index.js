@@ -33,7 +33,8 @@ export default function Mentors() {
         <div className="p-5 pt-3">
             {types.map((t) =>
                 <div key={t} hidden={mentorType !== t}>
-                    <h4>{t}</h4>
+
+                    <h4>{t==="Other"?"Other Disciplines":t}</h4>
                     <div className="d-flex flex-row justify-content-evenly flex-wrap">
                         {mentors.filter(({type}) => t === type).map(({id, name, designation, image, area_or_expertise}) =>
                             <MentorCard designation={designation} name={name} image={image} key={id} area_or_expertise={ area_or_expertise}/>
