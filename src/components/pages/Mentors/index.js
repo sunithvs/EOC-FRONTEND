@@ -17,14 +17,14 @@ function MentorCard({name, designation, image, area_or_expertise}) {
 export default function Mentors() {
     const [mentors, setMentors] = useState([]);
 
-    const types = ["Faculty", "Alumni", "Student", "Others"]
+    const types = ["Faculty", "Alumni", "Student", "Other"]
 
     const {mentorType} = useParams()
 
     console.log(mentorType)
 
     useEffect(() => {
-        fetch(process.env.REACT_APP_API + "mentor")
+        fetch(process.env.REACT_APP_API + `mentor/`)
             .then(response => response.json())
             .then(setMentors);
     }, []);

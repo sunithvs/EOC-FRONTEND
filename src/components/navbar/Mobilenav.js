@@ -71,6 +71,7 @@ function Mobilenav() {
                         <Link className='nounderline' to='/Mentors/Faculty'><CaretRightFill/>Faculty</Link>
                         <Link className='nounderline' to='/Mentors/Alumni'><CaretRightFill/>Alumni</Link>
                         <Link className='nounderline' to='/Mentors/Student'><CaretRightFill/>Student</Link>
+                        <Link className='nounderline' to='/Mentors/Other'><CaretRightFill/>Others</Link>
                     </div>
                 </div>
             </div>
