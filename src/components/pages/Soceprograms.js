@@ -37,6 +37,7 @@ function SocePrograms() {
 
 </p>
 
+
             {!programs && <h4>Loading...</h4>}
             {programs.map(({name, longDesc, image, images}) => (
                 <div className="PRO_eventbase">
