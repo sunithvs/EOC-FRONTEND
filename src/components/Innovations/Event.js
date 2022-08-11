@@ -18,7 +18,7 @@ function Event(props) {
                 
                     
                     
-                    <div style={{backgroundImage: `url(${process.env.REACT_APP_GALLERY_API+props.data.image})` 
+                    <div style={{backgroundImage: `url(${props.data.image})` 
                         }} className='INOaspectartio'>
                             
                     </div>           
