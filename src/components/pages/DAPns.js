@@ -26,13 +26,14 @@ function DAPns() {
             </div>
             <div className='dappara'>
                 <h3>
-                We Aim to provide Higher Education for persons with special needs and to support visually challenged employees.
+                Vision
                 </h3>
+                <p>To provide Higher Education for people with special needs. </p>
                 
 
             </div>
             <div className='pointclass'>
-            <h4>Objective</h4>
+            <h4>Mission</h4>
             <ul>
                 <li>
                     To implement Central / State Government Schemes for Differently abled persons in the University.
