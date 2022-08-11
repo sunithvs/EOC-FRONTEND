@@ -51,8 +51,8 @@ export class Carousel_L extends Component{
                     <div key={newk.Key} className="cente">
                       <img className="imgsize" src={process.env.REACT_APP_GALLERY_API+newk.Carouselimage}  alt=""/>
                       <div className="writing">
-                        <h1>{newk.CarouselTittle}</h1>
-                        <p>{newk.CarouselDesc}</p>
+                        {/*<h1>{newk.CarouselTittle}</h1>*/}
+                        {/*<p>{newk.CarouselDesc}</p>*/}
                       </div>
                     </div>
 
