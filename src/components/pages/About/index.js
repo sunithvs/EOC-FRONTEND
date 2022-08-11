@@ -82,10 +82,8 @@ function AssociateAbout() {
                 the Indian Institute of Management Kozhikode, which incubated the Centre of Excellence, the predecessor
                 institution of the CREST and the National Institute of Advanced Studies (NIAS) Bangalore. The Governing
                 Council headed by the Minister for the Welfare of Scheduled and Backward Communities, Kerala as Chairman
-                monitors the activities of the Centre. Dignitaries like the Governor of Kerala, Chief Minister of Kerala
-                and the Speaker of the Kerala Legislative Assembly are the patrons of this Autonomous institution.
-                The Governing Council has representation from institutions like Indian Institute of Management Kozhikode,
-                National Institute of Advanced Studies. </p>
+                monitors the activities of the Centre. CREST has always been a constant support to us many programs
+            were conducted by EOC and SOCE in association with CREST.</p>
 
 
 
