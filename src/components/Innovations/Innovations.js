@@ -45,7 +45,6 @@ export class Innovations extends Component{
                 <div className='INOBase'>
                 <div className='INOGalleryTittle'>Student Innovations</div>
                 <p>CUSAT is famous for research excellence and home to some of the most talented people from across India. Our work helps the lives of millions, solving real-world problems through a huge network of partnerships and collaborations. The breadth and interdisciplinary nature of our research sparks imaginative and inventive insights and solutions.</p>
-                <div className='INORecnt'>Recent Activites : </div>
                 <div className='INOgallerybase INOgalleyspacer'>
                     
                     {
