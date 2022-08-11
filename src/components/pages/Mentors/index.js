@@ -16,7 +16,7 @@ function MentorCard({name, designation, image}) {
 export default function Mentors() {
     const [mentors, setMentors] = useState([]);
 
-    const types = ["Faculty", "Alumni", "Student", "Other"]
+    const types = ["Faculty", "Alumni", "Student", "Others"]
 
     const {mentorType} = useParams()
 
