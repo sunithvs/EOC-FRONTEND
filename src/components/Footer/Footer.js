@@ -10,7 +10,7 @@ function Footer() {
             </div>
 
             <div className='footertext'>
-            Copyright (c) SOCE and EOC CUSAT, Cochin University of Science & Technology. All rights reserved.
+            Copyright (c) SOCE & EOC CUSAT, Cochin University of Science & Technology. All rights reserved.
             </div>
 
 
