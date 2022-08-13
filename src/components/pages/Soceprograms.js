@@ -29,14 +29,21 @@ function SocePrograms() {
                 </ul>
 
             </p>
-
-            <h3>Workshop on Soft Skills Development for SC/ ST Engineering Students (2020 Admissions)-online
-            </h3>
+            <h3>Soft skill development programs</h3>
+            <h5>Workshop on Soft Skills Development for SC/ ST Engineering Students (2020 Admissions)-online
+            </h5>
             <p>
             <ul>
 
                 <li>Participants: 60</li>
             </ul>
+            </p>
+            <h5>Training in:</h5>
+            <p>
+                <ul>
+                    <li>Communicative English</li>
+                    <li>Resume Creation</li>
+                </ul>
             </p>
             <h3>Student Skill Development Activities
             </h3>
@@ -45,6 +52,23 @@ function SocePrograms() {
                 <li>Student Training programmes-MS Excel,C++,Web Designing</li>
                 <li>Students developed websites, awareness videos and app during the lockdown period</li>
             </ul>
+            </p>
+            <h3>Courses conducted by SOCE, CUSAT through Hands on Experience</h3>
+            <p>
+                <ul>
+                    <li>Skills on Computer Programming</li>
+                    <li>Workshop on C++</li>
+                    <li>Orientation to Excel</li>
+                    <li>Personality Development Programme</li>
+                    <li>Web Designing</li>
+                </ul>
+            </p>
+            <h3>Special Coaching Programs</h3>
+            <p>
+                <ul>
+                    <li>Enginering Mathematics</li>
+                    <li>Engineering Mechanics</li>
+                </ul>
             </p>
 
             <h3>Upcoming Project </h3>
