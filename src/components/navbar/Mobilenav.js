@@ -20,7 +20,7 @@ function Mobilenav() {
             <div className='COACHING aligntext'>
 
                 <div className="dropdown">
-                    <button className="dropbtn">Coaching Programs</button>
+                    <button className="dropbtn">Programs Under EOC</button>
                     <div className="dropdown-content">
                         <Link className='nounderline' to='/RemedialCoaching'><CaretRightFill/> Remedial Coaching</Link>
                         <Link className='nounderline' to='/CoachingForNET'><CaretRightFill/> NET Coaching</Link>
@@ -33,7 +33,7 @@ function Mobilenav() {
                 <div className="dropdown">
                     <Link className='nounderline buttoneff' to='/SOCE'>
                         <button className="dropbtn">
-                            SOCE
+                           Programs under SOCE
                         </button>
                     </Link>
                     <div className="dropdown-content">
@@ -71,7 +71,7 @@ function Mobilenav() {
                         <Link className='nounderline' to='/Mentors/Faculty'><CaretRightFill/>Faculty</Link>
                         <Link className='nounderline' to='/Mentors/Alumni'><CaretRightFill/>Alumni</Link>
                         <Link className='nounderline' to='/Mentors/Student'><CaretRightFill/>Student</Link>
-                        <Link className='nounderline' to='/Mentors/Other'><CaretRightFill/>Others</Link>
+                        <Link className='nounderline' to='/Mentors/Other'><CaretRightFill/>Other Discipline</Link>
                     </div>
                 </div>
             </div>
