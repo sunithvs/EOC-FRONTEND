@@ -29,7 +29,7 @@ function RemedialCoaching() {
 
 
     <div className="COA_eventbase">              
-      <div className="COA_row"> 
+      <div className="COA_row">
 
         <div className="COA_column">
           <img src={rem4} className="COA_IMAG" alt=""/>           
@@ -44,7 +44,19 @@ function RemedialCoaching() {
           <img src={rem1} className="COA_IMAG" alt=""/>           
         </div>
         <div className="COA_column">
-          <img src={rem5} className="COA_IMAG" alt=""/>           
+          <img src={IMG-20220812-WAOO17} className="COA_IMAG" alt=""/>
+        </div>
+        <div className="COA_column">
+          <img src={IMG-20220813-WAOO39} className="COA_IMAG" alt=""/>
+        </div>
+        <div className="COA_column">
+          <img src={IMG-20220813-WAOO40} className="COA_IMAG" alt=""/>
+        </div>
+        <div className="COA_column">
+          <img src={IMG-20220813-WAOO41} className="COA_IMAG" alt=""/>
+        </div>
+        <div className="COA_column">
+          <img src={rem5} className="COA_IMAG" alt=""/>
         </div>
         
       </div>
