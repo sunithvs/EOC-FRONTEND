@@ -21,6 +21,32 @@ function SocePrograms() {
                 Centre will conduct Soft Skill Development programmes benefitted for SC/ST Engineering students of
                 CUSAT. The Centre is established in the year 2019 for a period of 3 years. The scheme is beneficial for
                 SC/ST Engineering students to empower and reorient themselves in the current merging opportunities.</p>
+            <h3>Webinar on Educational Concessions and Career Orientation</h3>
+            <p>
+                <ul>
+                    <li>Date: 26/3/2021</li>
+                    <li>No. of participants: Students: 50  Faculty:10</li>
+                </ul>
+
+            </p>
+
+            <h3>Workshop on Soft Skills Development for SC/ ST Engineering Students (2020 Admissions)-online
+            </h3>
+            <p>
+            <ul>
+                <li>Date   : 20th, 21st, 27th& 28th March 2021</li>
+                <li>Participants: 60</li>
+            </ul>
+            </p>
+            <h3>Student Skill Development Activities
+            </h3>
+            <p>
+            <ul>
+                <li>Student Training programmes-MS Excel,C++,Web Designing</li>
+                <li>Students developed websites, awareness videos and app during the lockdown period</li>
+            </ul>
+            </p>
+
             <h3>Upcoming Project </h3>
             <h4>XR Lab Cusat</h4>
             <p>Extended reality lab in the Skill Orientation Centre for Engineering (SOCE), CUSAT as its extension
