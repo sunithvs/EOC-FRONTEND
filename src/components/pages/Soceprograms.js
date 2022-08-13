@@ -53,7 +53,7 @@ function SocePrograms() {
                 <li>Students developed websites, awareness videos and app during the lockdown period</li>
             </ul>
             </p>
-            <h3>Courses conducted by SOCE, CUSAT through Hands on Experience</h3>
+            <h3>Technical Skill Development Programs through Hands on Experience</h3>
             <p>
                 <ul>
                     <li>Skills on Computer Programming</li>
