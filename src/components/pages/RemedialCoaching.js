@@ -23,7 +23,7 @@ function RemedialCoaching() {
     </p>
     <h4>Vision </h4>
     <p  className="COApara">
-    To improve the academic proficiency of the students in various subjects and to raise their level of comprehension in such subjects where quantitative, Technical and laboratory works are involved.  
+    Improve the academic proficiency of the students in various subjects and to raise their level of comprehension in such subjects where quantitative, Technical and laboratory works are involved. 
     </p>
     <h4>Mission </h4>
     <p  className="COApara">
