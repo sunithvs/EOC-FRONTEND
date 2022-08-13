@@ -5,6 +5,10 @@ import rem2 from '../../Assets/remedial/rem2.jpg'
 import rem3 from '../../Assets/remedial/rem3.jpg'
 import rem4 from '../../Assets/remedial/rem4.jpg'
 import rem5 from '../../Assets/remedial/rem5.jpg'
+import rem6 from '../../Assets/remedial/rem6.jpg'
+import rem7 from '../../Assets/remedial/rem7.jpg'
+import rem8 from '../../Assets/remedial/rem8.jpg'
+
 
 
 
@@ -44,20 +48,18 @@ function RemedialCoaching() {
           <img src={rem1} className="COA_IMAG" alt=""/>           
         </div>
         <div className="COA_column">
-          <img src={IMG-20220812-WAOO17} className="COA_IMAG" alt=""/>
-        </div>
-        <div className="COA_column">
-          <img src={IMG-20220813-WAOO39} className="COA_IMAG" alt=""/>
-        </div>
-        <div className="COA_column">
-          <img src={IMG-20220813-WAOO40} className="COA_IMAG" alt=""/>
-        </div>
-        <div className="COA_column">
-          <img src={IMG-20220813-WAOO41} className="COA_IMAG" alt=""/>
-        </div>
-        <div className="COA_column">
           <img src={rem5} className="COA_IMAG" alt=""/>
         </div>
+        <div className="COA_column">
+          <img src={rem6} className="COA_IMAG" alt=""/>
+        </div>
+        <div className="COA_column">
+          <img src={rem7} className="COA_IMAG" alt=""/>
+        </div>
+        <div className="COA_column">
+          <img src={rem8} className="COA_IMAG" alt=""/>
+        </div>
+
         
       </div>
     </div>
