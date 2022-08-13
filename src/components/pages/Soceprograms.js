@@ -24,7 +24,7 @@ function SocePrograms() {
             <h3>Webinar on Educational Concessions and Career Orientation</h3>
             <p>
                 <ul>
-                    <li>Date: 26/3/2021</li>
+
                     <li>No. of participants: Students: 50  Faculty:10</li>
                 </ul>
 
@@ -34,7 +34,7 @@ function SocePrograms() {
             </h3>
             <p>
             <ul>
-                <li>Date   : 20th, 21st, 27th& 28th March 2021</li>
+
                 <li>Participants: 60</li>
             </ul>
             </p>
