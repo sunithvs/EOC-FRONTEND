@@ -11,7 +11,8 @@ function Mobilenav() {
             </Link>
 
 
-            <Link className='ADVISORY aligntext buttoneff' to='/AdvisoryCommittee'> Advisory Committee</Link>
+            {/*<Link className='ADVISORY aligntext buttoneff' to='/AdvisoryCommittee'>Committee</Link>*/}
+
 
 
             <Link to='/DifferentiallyAbledPersons' className='PWD aligntext buttoneff'>

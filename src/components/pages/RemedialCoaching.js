@@ -19,7 +19,12 @@ function RemedialCoaching() {
    <div className="COAbase">
      <h3 className="COATITTLE"> Remedial Coaching </h3>
     <p className="COApara">
-    As per UGC guidelines, during the XIth plan period, Remedial coaching was started in CUSAT in the year 2008. This was effectively implemented for the benefit of   SC/ST /OBC (Non –creamy layer) minorities and economically weaker section of students of various undergraduate and postgraduate programme.  An advisory committee was constituted with the Vice Chancellor as the chair and five professors as the members, for the overall monitoring and guidance. Equal opportunity cell (EOC) organizes these classes every semester with the help of faculty mentors from various departments in CUSAT.
+    As per UGC guidelines, during the XIth plan period, Remedial coaching was started in CUSAT in the year 2008.
+      This was effectively implemented for the benefit of   SC/ST /OBC (Non –creamy layer) minorities and
+      economically weaker section of students of various undergraduate and postgraduate programme.  An advisory
+      committee was constituted with the Vice Chancellor as the chair and five professors as the members, for the
+      overall monitoring and guidance. Equal opportunity cell (EOC) organizes these classes every semester with the
+      help of faculty mentors from various departments in CUSAT.
     </p>
     <h4>Vision </h4>
     <p  className="COApara">
