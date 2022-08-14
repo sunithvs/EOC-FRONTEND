@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8d8aabc4.chunk.css",
-    "main.js": "/static/js/main.9b5543b7.chunk.js",
-    "main.js.map": "/static/js/main.9b5543b7.chunk.js.map",
+    "main.js": "/static/js/main.dbfdb3d4.chunk.js",
+    "main.js.map": "/static/js/main.dbfdb3d4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eceb5308.js",
     "runtime-main.js.map": "/static/js/runtime-main.eceb5308.js.map",
     "static/css/2.4ce9e501.chunk.css": "/static/css/2.4ce9e501.chunk.css",
@@ -63,11 +63,17 @@
     "static/media/logocusat.0651c3d3.jpg": "/static/media/logocusat.0651c3d3.jpg",
     "static/media/net1.ac65773f.jpg": "/static/media/net1.ac65773f.jpg",
     "static/media/net2.65b522ea.jpg": "/static/media/net2.65b522ea.jpg",
+    "static/media/net5.f41f6593.JPG": "/static/media/net5.f41f6593.JPG",
     "static/media/rem1.bd0dc2ac.jpg": "/static/media/rem1.bd0dc2ac.jpg",
+    "static/media/rem10.da1a6576.JPG": "/static/media/rem10.da1a6576.JPG",
+    "static/media/rem11.eecb8814.JPG": "/static/media/rem11.eecb8814.JPG",
     "static/media/rem2.f1a43d20.jpg": "/static/media/rem2.f1a43d20.jpg",
     "static/media/rem3.35d2ac97.jpg": "/static/media/rem3.35d2ac97.jpg",
+    "static/media/rem3.fe375511.JPG": "/static/media/rem3.fe375511.JPG",
+    "static/media/rem4.298d911d.JPG": "/static/media/rem4.298d911d.JPG",
     "static/media/rem4.3439d85d.jpg": "/static/media/rem4.3439d85d.jpg",
     "static/media/rem5.d0cd0929.jpg": "/static/media/rem5.d0cd0929.jpg",
+    "static/media/rem5.fb572839.JPG": "/static/media/rem5.fb572839.JPG",
     "static/media/rem6.c8329498.jpg": "/static/media/rem6.c8329498.jpg",
     "static/media/rem7.aa54f2a3.jpg": "/static/media/rem7.aa54f2a3.jpg",
     "static/media/rem8.c0760b65.jpg": "/static/media/rem8.c0760b65.jpg",
@@ -78,6 +84,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.937eebc3.chunk.js",
     "static/css/main.8d8aabc4.chunk.css",
-    "static/js/main.9b5543b7.chunk.js"
+    "static/js/main.dbfdb3d4.chunk.js"
   ]
 }
