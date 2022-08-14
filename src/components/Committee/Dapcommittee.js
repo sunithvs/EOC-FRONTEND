@@ -14,16 +14,15 @@ function Dapcommittee() {
             </div>
             <div className='DAPcommsubboc'>
             <Membercard name ="Smt.Jaya Prabha" detail="Associate Professor in IT, Cochin University College of Engineering, Kuttanad. (Faculty)t"/>
-            <Membercard name ="Subin George Thomas" detail="Section Officer UGC (S) cell for SC/ST (Non-Teaching)"/>
+
             <Membercard name ="Nazar Saidumohammed" detail="Section Officer, School of Legal Studies, CUSAT (Non Teaching)"/>
-            
+            <Membercard name ="Sachin Das" detail="Electrical & Electronics Engineering, School of Engineering, CUSAT(Student)"/>
             
                          
-            </div>
-            <div className='DAPcommsubboc'>
-            <Membercard name ="Sachin Das" detail="Electrical & Electronics Engineering, School of Engineering, CUSAT(Student)"/>
-            <Membercard name ="Prasanth Sivadas" detail="Electrical & Electronics Engineering, School of Engineering, CUSAT (Student)"/>
-            <Membercard name ="Vivek " detail=" MBA (Full Time),  IV Semester, CUSAT (Student)"/>
+
+
+
+
             
             
                

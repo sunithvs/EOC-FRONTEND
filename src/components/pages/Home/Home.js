@@ -23,6 +23,10 @@ function Home() {
                                 <h2 style={{fontFamily: 'Cinzel'}}><img width={75} height={100} src={logocusat} alt=""/>   Welcome to Equal Opportunity Cell CUSAT
                                 </h2>
                             }
+                             <p>
+                                        -Funded by University Grant Commission and was established in Cochin University
+                                        of Science and Technology (CUSAT) in the year 2007.
+                                    </p>
 
                             {(window.innerWidth < 769) &&
                                 <>
@@ -34,21 +38,18 @@ function Home() {
                             }
 
                             <h5 >
-                                Focusing to the marginalized for learning and creating space for them to the main
-                                stream.
+                                "Focusing to the marginalized for learning and creating space for them to the main
+                                stream."
                            </h5>
+
 
                             <div className='parabox'>
 
                                 <div className="LeftparaBOX">
                                     <h4>Vision</h4>
                                     <p>
-                                        To implement policies and programmes for disadvantaged groups and to provide
-                                        <ul>
-                                            <li> Guidance </li>
-                                            <li> Counselling </li>
-                                            <li> Training   </li>
-                                        </ul>
+                                        To implement policies and programmes for slow learners through proper guidance, counselling, and training.
+
                                     </p>
                                 </div>
 
@@ -63,10 +64,7 @@ function Home() {
                                         OBC (Non-creamy layer), Minorities, Women, Physically Challenged Persons, to
                                         enhance their employability level and carrier Opportunities.
                                     </p>
-                                    <p>
-                                        Funded by University Grant Commission and was established in Cochin University
-                                        of Science and Technology (CUSAT) in the year 2007.
-                                    </p>
+
                                 </div>
 
                                 <img  className="RightparaBOX mt-4" src={headimg} alt="cvr"/>

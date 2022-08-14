@@ -16,7 +16,7 @@ function Mobilenav() {
 
 
             <Link to='/DifferentiallyAbledPersons' className='PWD aligntext buttoneff'>
-                Differently Abled Persons
+                Facilities for persons with special needs
             </Link>
             <div className='COACHING aligntext'>
 
