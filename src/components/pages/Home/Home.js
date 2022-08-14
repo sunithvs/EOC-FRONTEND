@@ -3,6 +3,7 @@ import './home.css'
 
 import News from '../../News/News'
 import headimg from '../../../Assets/headimg.jpg'
+import logocusat from '../../../Assets/logocusat.jpg'
 
 function Home() {
 
@@ -19,8 +20,7 @@ function Home() {
                         <div className='homehead'>
 
                             {(window.innerWidth > 768) &&
-                                <h2>
-                                    Welcome to Equal Opportunity Cell CUSAT
+                                <h2 style={{fontFamily: 'Cinzel'}}><img width={75} height={100} src={logocusat} alt=""/>   Welcome to Equal Opportunity Cell CUSAT
                                 </h2>
                             }
 
@@ -33,10 +33,10 @@ function Home() {
 
                             }
 
-                            <p>
+                            <h5 >
                                 Focusing to the marginalized for learning and creating space for them to the main
                                 stream.
-                            </p>
+                           </h5>
 
                             <div className='parabox'>
 
@@ -69,7 +69,7 @@ function Home() {
                                     </p>
                                 </div>
 
-                                <img className="RightparaBOX mt-4" src={headimg} alt="cvr"/>
+                                <img  className="RightparaBOX mt-4" src={headimg} alt="cvr"/>
 
                             </div>
 

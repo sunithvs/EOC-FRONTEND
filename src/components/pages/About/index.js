@@ -49,7 +49,7 @@ function SOCEAbout() {
                 </div>
             </div>
 <div className='socecomm'>
-            <h3 className='socememberline'>Program Evaluation Committee</h3>
+            <h3 className='socememberline'>Program Evaluation Committee (PEC)</h3>
             <div className='socecommsubboc' >
                 <Mcpic  imgURL ={img2} name="Dr.V MEERA" des="Chair Person PEC & " detail="Registrar, CUSAT" />
                 <Mcpic  imgURL ={img4} name="Prof.(Dr.)Sasi Gopalan" des="Coordinator SOCE & Member Secretary PEC" detail="Dept of Mathematics, CUSAT" />
