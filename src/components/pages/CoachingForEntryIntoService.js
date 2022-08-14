@@ -10,14 +10,13 @@ function CoachingForEntryIntoService() {
     
     The well-being and development of the Scheduled Castes (SC), Scheduled Tribes (ST), OBC
 (non-creamy layer) and Minorities are important indicators of the strength and success of a
-democratic society. Specific provisions have been made to improve the status of these groups,
-socially and educationally, so that they can take their rightful place in society. Representation of
-the groups in All India / State / Provincial Services and equivalent positions in the private sector
-is an indicator of how far the country has been successful to equip them so that they are in a
-position to safeguard their own interests. In order to prepare students belonging to SC / ST/OBC
+democratic society. Specific provisions have been made to improve their status
+socially and educationally, so that they can take their rightful place in the society. Representation of
+these groups in All India / State / Provincial Services and equivalent positions in the private sector
+can be ensured through this programme. In order to prepare students belonging to SC / ST/OBC
 (non-creamy layer) and Minority communities to get gainful employment in Central and other
-services mentioned above, Eoc will provide Coaching classes for entry in
-services for SC / ST & Minorities.
+services mentioned above, Eoc provides Coaching programmes for entry into
+services.
 
 
     </p> 
@@ -25,7 +24,10 @@ services for SC / ST & Minorities.
     <h5>Webinar on Educational Concessions And Career Orientation </h5>
     
 
-    <p>Organized by Equal Opportunity Cell on Mar 26, 2021 for CUSAT First year students, Helped students to understand more about e-grantz and other different scholarship schemes. </p>
+    <p>In connection with entry into service programmes, Equal Opportunity Cell organises webinar on educational
+        concessions in the beginning of every academic year.
+        This helps students to understand more about e-grantz and other different scholarship schemes.
+    Images of the webinar conducted online during COVID period is attached below.</p>
     <h6 className='COAwatchlink' onClick={()=>window.open("https://youtu.be/nCghPEEsDq8")}> Click here to Watch Full video on Youtube  </h6>
     <div className="COA_eventbase">              
       <div className="COA_row"> 

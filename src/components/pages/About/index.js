@@ -182,6 +182,20 @@ function AssociateAbout() {
                 monitors the activities of the Centre. CREST has always been a constant support to us many programs
             were conducted by EOC and SOCE in association with CREST.</p>
 
+            <h3 className='socetittle'>College of Engineering Trivandrum</h3>
+            <p>The College of Engineering Trivandrum, commonly known as CET, is the first engineering college
+                in Kerala, situated in Thiruvananthapuram, the capital city of Kerala. It was founded in 1939
+                during the reign of the Travancore King, Chithira Thirunal Balarama Varma. CET has always been
+            a constant piller of support and an enthusiastic participator in all our activities. </p>
+
+
+            <h3 className='socetittle'>College of Engineering Munnar</h3>
+            <p>College of Engineering Munnar is an Institute of higher learning established by Government of
+                Kerala and is managed by the Center for Continuing Education Kerala ( CCEK ). The Institution
+                started in the year 2000 was affiliated to Cochin University of Science and Technology and is
+                affiliated to APJ Abdul Kalam Technological University Kerala from 2015 admission onwards.
+                College of Engineering Munnar have helped us in conducting many programs</p>
+
 
 
             <h3 className='socetittle'>The University Employment Information and Guidance Bureau</h3>
@@ -200,18 +214,8 @@ function AssociateAbout() {
                 programmes in the areas of arts, soft skills and personality development with an objective of
                 achieving 5 C’s – Competence, Creativity, Confidence and Compassion and Communication. </p>
 
-            <h3 className='socetittle'>College of Engineering Munnar</h3>
-            <p>College of Engineering Munnar is an Institute of higher learning established by Government of
-                Kerala and is managed by the Center for Continuing Education Kerala ( CCEK ). The Institution
-                started in the year 2000 was affiliated to Cochin University of Science and Technology and is
-                affiliated to APJ Abdul Kalam Technological University Kerala from 2015 admission onwards.
-                College of Engineering Munnar have helped us in conducting many programs</p>
 
-            <h3 className='socetittle'>College of Engineering Trivandrum</h3>
-            <p>The College of Engineering Trivandrum, commonly known as CET, is the first engineering college
-                in Kerala, situated in Thiruvananthapuram, the capital city of Kerala. It was founded in 1939
-                during the reign of the Travancore King, Chithira Thirunal Balarama Varma. CET has always been
-            a constant piller of support and an enthusiastic participator in all our activities. </p>
+
 
 
 
