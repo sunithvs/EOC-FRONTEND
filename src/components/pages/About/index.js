@@ -51,11 +51,11 @@ function SOCEAbout() {
 <div className='socecomm'>
             <h3 className='socememberline'>Program Evaluation Committee</h3>
             <div className='socecommsubboc' >
-                <Mcpic  imgURL ={img2} name="V MEERA" des="Chair Person " detail="Registrar, CUSAT" />
-                <Mcpic  imgURL ={img4} name="Dr.Sasi Gopalan" des="Coordinator" detail="Professor in Mathematics, CUSAT" />
-                <Mcpic  imgURL ={img1} name="Prof. (Dr.) Honey John" des="" detail="Dept. of Polymer & Rubber Technology, CUSAT" />
+                <Mcpic  imgURL ={img2} name="Dr.V MEERA" des="Chair Person PEC & " detail="Registrar, CUSAT" />
+                <Mcpic  imgURL ={img4} name="Prof.(Dr.)Sasi Gopalan" des="Coordinator SOCE & Member Secretary PEC" detail="Dept of Mathematics, CUSAT" />
+                <Mcpic  imgURL ={img1} name="Prof. (Dr.) Honey John" des="" detail="Dept. of Polymer Science & Rubber Technology, CUSAT" />
                 <Mcpic  imgURL ={img3} name="Prof. (Dr.) Radhakrishna Panicker M.R" des="" detail="Div. of Mechanical Engineering, SOE, CUSAT" />
-                <Mcpic  imgURL ={img5} name="Dr. Deepa G Nair" des="" detail="Div. of Civil Engineering, SOE, CUSAT" />
+                <Mcpic  imgURL ={img5} name="Prof. (Dr.) Deepa G Nair" des="" detail="Div. of Civil Engineering, SOE, CUSAT" />
                 {
                     (window.innerWidth>768)&&(
                         <Infocard  name ="" des="" detail=""/>
