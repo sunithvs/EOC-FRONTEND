@@ -28,8 +28,11 @@ function Navbar() {
                         <div>Student Feedback</div>
                     </Link>
 
-                    <Link className='nounderline orangebutton' to='/Innovations'>
+                    <Link className='nounderline whitebutton' to='/Innovations'>
                         <div>Innovation</div>
+                    </Link>
+                     <Link className='nounderline whitebutton' to='/Future_plans'>
+                        <div>Future Plans</div>
                     </Link>
 
                 </div>
