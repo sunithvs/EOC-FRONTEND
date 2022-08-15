@@ -20,6 +20,7 @@ import CoachingForNET from "./components/pages/CoachingForNET"
 import Feedback from "./components/pages/Feedback"
 import SocePrograms from "./components/pages/Soceprograms"
 import About from "./components/pages/About";
+import FuturePlans from "./components/pages/Future_plans";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <Route path='/Mentors/:mentorType'  component={Mentors} />
           <Route path='/Gallery'  component={Gallery} />
           <Route path='/Innovations'  component={Innovations} />
+          <Route path='/Future_plans'  component={FuturePlans} />
           <Route path='/SOCE'  component={Soce} />
           <Route path='/ProgramEvaluationCommitiee'  component={PEC} />
           <Route path='/DifferentiallyAbledPersons' component={DAPns} />
