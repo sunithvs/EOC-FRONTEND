@@ -174,7 +174,7 @@ function EOCAbout() {
 function AssociateAbout() {
     return (<div className='soce_main'>
             <h3 className='socetittle'>ASSOCIATING INSTITUTIONS</h3>
-            <h3 className='socetittle'>CREST</h3>
+            <h3 className='socetittle'>CREST-Centre for Research & Education for Social Transformation</h3>
             <p>CREST is an autonomous organization under the Government of Kerala with the mentoring support from
                 the Indian Institute of Management Kozhikode, which incubated the Centre of Excellence, the predecessor
                 institution of the CREST and the National Institute of Advanced Studies (NIAS) Bangalore. The Governing
