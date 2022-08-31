@@ -8,7 +8,11 @@ import logocusat from '../../../Assets/logocusat.jpg'
 function Home() {
 
     return (
+
         <div>
+            <div className='home_page_marquee'>
+            <marquee>Implemented Unlock- A digitally controlled door lock, in SOCE CUSAT. | Organized Workshop HackIt 2022</marquee>
+            </div>
             <Carouselin/>
 
             <div className='obj '>

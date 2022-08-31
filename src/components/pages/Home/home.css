@@ -9,6 +9,10 @@ html, body {
     background-color: white;
 }
 
+.home_page_marquee {
+    color: rgb(247 94 0);
+    background-color: #f1f1f1;
+}
 .obj {
 
     margin-left: 3vw;
