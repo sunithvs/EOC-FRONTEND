@@ -52,7 +52,7 @@ function Home() {
                                 <div className="LeftparaBOX">
                                     <h4>Vision</h4>
                                     <p>
-                                        To implement policies and programmes for slow learners through proper guidance, counselling, and training.
+                                        To advance equality through technology.
 
                                     </p>
                                 </div>
