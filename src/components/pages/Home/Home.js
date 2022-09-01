@@ -11,7 +11,12 @@ function Home() {
 
         <div>
             <div className='home_page_marquee'>
-            <marquee>Implemented Unlock- A digitally controlled door lock, in SOCE CUSAT. | Organized Workshop HackIt 2022</marquee>
+                <div className="marque">
+                    <p>
+                        Implemented Unlock- A digitally controlled door lock, in SOCE CUSAT. | Organized Workshop HackIt
+                        2022
+                    </p>
+                </div>
             </div>
             <Carouselin/>
 
@@ -24,13 +29,14 @@ function Home() {
                         <div className='homehead'>
 
                             {(window.innerWidth > 768) &&
-                                <h2 style={{fontFamily: 'Cinzel'}}><img width={75} height={100} src={logocusat} alt=""/>   Welcome to Equal Opportunity Cell CUSAT
+                                <h2 style={{fontFamily: 'Cinzel'}}><img width={75} height={100} src={logocusat}
+                                                                        alt=""/> Welcome to Equal Opportunity Cell CUSAT
                                 </h2>
                             }
-                             <p>
-                                        -Funded by University Grant Commission and was established in Cochin University
-                                        of Science and Technology (CUSAT) in the year 2007.
-                                    </p>
+                            <p>
+                                -Funded by University Grant Commission and was established in Cochin University
+                                of Science and Technology (CUSAT) in the year 2007.
+                            </p>
 
                             {(window.innerWidth < 769) &&
                                 <>
@@ -41,10 +47,10 @@ function Home() {
 
                             }
 
-                            <h5 >
+                            <h5>
                                 "Focusing to the marginalized for learning and creating space for them to the main
                                 stream."
-                           </h5>
+                            </h5>
 
 
                             <div className='parabox'>
@@ -71,7 +77,7 @@ function Home() {
 
                                 </div>
 
-                                <img  className="RightparaBOX mt-4" src={headimg} alt="cvr"/>
+                                <img className="RightparaBOX mt-4" src={headimg} alt="cvr"/>
 
                             </div>
 
