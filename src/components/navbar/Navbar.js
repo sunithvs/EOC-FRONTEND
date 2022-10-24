@@ -31,6 +31,9 @@ function Navbar() {
                     <Link className='nounderline whitebutton' to='/Innovations'>
                         <div>Innovation</div>
                     </Link>
+                    <Link className='nounderline whitebutton' to='/activities'>
+                       <div>Activities</div>
+                   </Link>
 
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import ResponsiveNav from './components/navbar/ResponsiveNav'
 import Footer from '../src/components/Footer/Footer'
@@ -23,38 +23,39 @@ import About from "./components/pages/About";
 
 
 function App() {
-  return (
-    <Router>
+    return (
+        <Router>
 
-      <ResponsiveNav/>
+            <ResponsiveNav/>
 
-        <Switch>
+            <Switch>
 
-          <Route path='/' exact component={Home} />
-          <Route path='/AdvisoryCommittee'  component={Standingcommittee} />
-          <Route path='/CoachingPrograms'  component={CoachingPrograms} />
-          <Route path='/Contact'  component={Contact} />
-          <Route path='/Mentors/:mentorType'  component={Mentors} />
-          <Route path='/Gallery'  component={Gallery} />
-          <Route path='/Innovations'  component={Innovations} />
-          <Route path='/SOCE'  component={Soce} />
-          <Route path='/ProgramEvaluationCommitiee'  component={PEC} />
-          <Route path='/DifferentiallyAbledPersons' component={DAPns} />
-          <Route path='/StandingCommittee' component={Standingcommittee} />
-          <Route path='/RemedialCoaching' component={RemedialCoaching} />
-          <Route path='/CoachingForEntryIntoService' component={CoachingForEntryIntoService} />
-          <Route path='/CoachingForNET' component={CoachingForNET} />
-          <Route path='/Feedback' component={Feedback} />
-          <Route path='/About/:org' component={About} />
-          <Route path='/SocePrograms' component={SocePrograms}/>
+                <Route path='/' exact component={Home}/>
+                <Route path='/AdvisoryCommittee' component={Standingcommittee}/>
+                <Route path='/CoachingPrograms' component={CoachingPrograms}/>
+                <Route path='/Contact' component={Contact}/>
+                <Route path='/Mentors/:mentorType' component={Mentors}/>
+                <Route path='/Gallery' component={Gallery}/>
+                <Route path='/Innovations' component={Innovations}/>
+                <Route path='/activities' component={<Innovations activity={true}/>}/>
+                <Route path='/SOCE' component={Soce}/>
+                <Route path='/ProgramEvaluationCommitiee' component={PEC}/>
+                <Route path='/DifferentiallyAbledPersons' component={DAPns}/>
+                <Route path='/StandingCommittee' component={Standingcommittee}/>
+                <Route path='/RemedialCoaching' component={RemedialCoaching}/>
+                <Route path='/CoachingForEntryIntoService' component={CoachingForEntryIntoService}/>
+                <Route path='/CoachingForNET' component={CoachingForNET}/>
+                <Route path='/Feedback' component={Feedback}/>
+                <Route path='/About/:org' component={About}/>
+                <Route path='/SocePrograms' component={SocePrograms}/>
 
-        </Switch>
+            </Switch>
 
-        <Footer/>
-    </Router>
+            <Footer/>
+        </Router>
 
 
-  );
+    );
 }
 
 export default App;
