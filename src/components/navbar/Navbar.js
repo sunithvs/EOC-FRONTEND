@@ -24,14 +24,14 @@ function Navbar() {
                 </div>
                 <div className='RightNavbox'>
 
-                    <Link className='nounderline whitebutton' to='/Feedback'>
+                    <Link className='nounderline whitebutton m-2' to='/Feedback'>
                         <div>Student Feedback</div>
                     </Link>
 
-                    <Link className='nounderline whitebutton' to='/Innovations'>
+                    <Link className='nounderline whitebutton m-2' to='/Innovations'>
                         <div>Innovation</div>
                     </Link>
-                    <Link className='nounderline whitebutton' to='/activities'>
+                    <Link className='nounderline whitebutton m-2' to='/activities'>
                        <div>Activities</div>
                    </Link>
 

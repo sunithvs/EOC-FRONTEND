@@ -30,13 +30,13 @@ export class Details extends Component {
     }
 
     gotourl() {
-        if (this.props.data.InnovationLink !== '#') {
-            window.open(this.props.data.InnovationLink)
+        if (this.props.data.link !== '#') {
+            window.open(this.props.data.link)
         }
     }
 
     componentDidMount() {
-        this.contentRef.current.innerHTML = this.props.data.InnovationDesc;
+        this.contentRef.current.innerHTML = this.props.data.description;
     }
 
 
@@ -51,10 +51,10 @@ export class Details extends Component {
                          style={{backgroundImage: `linear-gradient(120deg,rgba(27,27,27,0.7), rgba(27,27,27,0.5)  ), url(${this.props.data.image})`}}>
                         <div className='INOdetailtittlebox'>
                             <div className='INOdetailtittle'>
-                                {this.props.data.InnovationName}
+                                {this.props.data.name}
                             </div>
                             <div className='INODetailDate'>
-                                held on {this.props.data.InnovationDate}
+                                held on {this.props.data.date}
                             </div>
                         </div>
                     </div>

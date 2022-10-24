@@ -37,7 +37,8 @@ function App() {
                 <Route path='/Mentors/:mentorType' component={Mentors}/>
                 <Route path='/Gallery' component={Gallery}/>
                 <Route path='/Innovations' component={Innovations}/>
-                <Route path='/activities' component={<Innovations activity={true}/>}/>
+                <Route path='/activities'>
+                    <Innovations activity={true}/></Route>
                 <Route path='/SOCE' component={Soce}/>
                 <Route path='/ProgramEvaluationCommitiee' component={PEC}/>
                 <Route path='/DifferentiallyAbledPersons' component={DAPns}/>

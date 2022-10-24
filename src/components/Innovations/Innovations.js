@@ -13,15 +13,18 @@ export class Innovations extends Component {
 
     refreshList() {
 
-        fetch(process.env.REACT_APP_API + this.props.activity ? "activities/" : "innovation/")
+        fetch(`${process.env.REACT_APP_API}${this.props.activity ? "activities/" : "innovation/"}`)
             .then(response => response.json())
             .then(data => {
+                console.log(data)
                 this.setState({programs: data})
             });
+        console.log(this.state.programs)
     }
 
 
     componentDidMount() {
+
         this.refreshList();
     }
 
@@ -52,7 +55,7 @@ export class Innovations extends Component {
 
                         {
                             programs.slice(0).reverse().map(newk =>
-                                <Event key={this.props.activity ? newk.id : newk.InnovationID} data={newk}
+                                <Event key={newk.InnovationID} data={newk}
                                        openeventdetail={this.opendetail}/>
                             )
                         }
